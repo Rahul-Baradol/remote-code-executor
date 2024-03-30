@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  judgernode-cpp:
+    build:
+      context: ./rce-judger-nodes
+      dockerfile: Dockerfile
+      target: cpp
+    env_file:
+      - ./rce-judger-nodes/.env.local
+    environment: 
+      - LANG=cpp
+    restart: on-failure

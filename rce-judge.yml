@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  rce-judge:
+    build:
+      context: ./rce-judge
+      dockerfile: Dockerfile
+    env_file:
+      - ./rce-judge/.env.local
+    ports:
+      - "3002:3002"
+    restart: on-failure

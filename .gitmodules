@@ -1,0 +1,15 @@
+[submodule "rce-judge"]
+	path = rce-judge
+	url = https://github.com/Rahul-Baradol/rce-judge.git
+[submodule "rce-auth"]
+	path = rce-auth
+	url = https://github.com/Rahul-Baradol/rce-auth.git
+[submodule "rce-data"]
+	path = rce-data
+	url = https://github.com/Rahul-Baradol/rce-data.git
+[submodule "rce-frontend"]
+	path = rce-frontend
+	url = https://github.com/Rahul-Baradol/rce-frontend.git
+[submodule "rce-judger-nodes"]
+	path = rce-judger-nodes
+	url = https://github.com/Rahul-Baradol/rce-judger-nodes.git
