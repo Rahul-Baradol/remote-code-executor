@@ -4,8 +4,6 @@ This is a microservice-based project that allows users to submit solutions to co
 
 Currently the judge works with only C++ and Java solutions.
 
-**It is ongoing project.**
-
 ## Overview
 
 The project consists of the following components:
